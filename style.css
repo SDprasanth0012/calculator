@@ -1,0 +1,57 @@
+* {
+    background-color:#7f5539;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+body {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+#cal {
+    display: grid;
+    grid-template-rows: 60px repeat(4,30px);
+    grid-template-columns: repeat(4,30px);
+    background-color: #2d2327;
+    gap:10px;
+    padding : 10px;
+}
+.screen {
+    grid-column-start :1 ;
+    grid-column-end : 5;
+    text-align: end;
+    border-radius: 10px;
+}
+#screen1,#screen2 {
+    background-color: #8c938a;
+    color:#2d2327;
+    font-size: 25px;
+    padding : 1px;
+    border-radius: 0px;
+}
+#digit {
+    background-color: gray;
+    color: black;
+    border: 1px solid gray;
+}
+#operator {
+    background-color: orange;
+    color:black;
+    border: 1px solid orange;
+}
+.equal {
+    background-color: green;
+    color:burlywood;
+    border: 1px solid green;
+}
+#foot  {
+   
+   position: absolute;
+   bottom: 0px;
+   background-color: black;
+   color:white;
+   width:100em;
+
+}
