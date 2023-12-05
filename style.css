@@ -12,11 +12,17 @@ main {
 }
 #cal {
     display: grid;
-    grid-template-rows: 60px repeat(4,30px);
+    grid-template-rows: 60px repeat(5,30px);
     grid-template-columns: repeat(4,30px);
     background-color: #2d2327;
     gap:10px;
     padding : 10px;
+}
+#clear{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: crimson;
+    border: 1px solid crimson;
 }
 .screen {
     grid-column-start :1 ;
@@ -52,6 +58,11 @@ main {
    bottom: 0px;
    background-color: black;
    color:white;
-   width:100em;
+   margin: 0px;
+   width:100vw;
+}
 
+button:hover {
+    font-size : 20px;
+    color : #ffffff;
 }
